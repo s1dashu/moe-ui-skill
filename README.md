@@ -20,6 +20,20 @@
 
 先选喜欢的风格，确认产品第一页，再扩展其他页面。插画、头像和图标分别生成，文字、布局与交互由真实组件实现，最后对照设计稿调整。
 
+## 安装
+
+```bash
+npx skills@latest add s1dashu/moe-ui-skill
+```
+
+按提示选择 Agent 即可安装，包含全部风格预览与提示词。添加 `--global` 可供所有项目使用：
+
+```bash
+npx skills@latest add s1dashu/moe-ui-skill --global
+```
+
+仓库目前为私有，安装前需确保本机 Git 已配置有权访问该仓库的 GitHub 账号。
+
 ## 推荐搭配
 
 推荐搭配 **Codex**，或接入 **GPT Image、Gemini Image 等最新生图模型**的 Agent 使用。Agent 需要具备图像生成与编辑、文件操作和代码实现能力。
@@ -29,3 +43,7 @@
 安装后，可以直接对 Agent 说：
 
 > 使用萌 UI Skill，先为我的产品展示几种风格，再生成首页预览。
+
+## 开源协议
+
+[MIT](LICENSE)
