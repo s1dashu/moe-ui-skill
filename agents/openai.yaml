@@ -1,0 +1,4 @@
+interface:
+  display_name: "萌 UI"
+  short_description: "先浏览预置风格图，再确认产品第一页，生成透明素材并用真实组件还原"
+  default_prompt: "使用 $moe-ui-skill，先展示预置风格参考图供我选择，再生成并确认实际产品第一页，随后扩展页面、生成素材和实现代码。"
