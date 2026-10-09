@@ -32,8 +32,6 @@ npx skills@latest add s1dashu/moe-ui-skill
 npx skills@latest add s1dashu/moe-ui-skill --global
 ```
 
-仓库目前为私有，安装前需确保本机 Git 已配置有权访问该仓库的 GitHub 账号。
-
 ## 推荐搭配
 
 推荐搭配 **Codex**，或接入 **GPT Image、Gemini Image 等最新生图模型**的 Agent 使用。Agent 需要具备图像生成与编辑、文件操作和代码实现能力。
